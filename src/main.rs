@@ -6,6 +6,8 @@ use std::io::BufReader;
 
 // Feel free to hardcode your own list of words
 const WORDS_FILE: &str = "/home/muffin/projects/programming/rust/hangman/src/words_alpha.txt";
+
+// How many lines in the words file
 const WORDS_LINES: usize = 370102;
 
 fn main() {
